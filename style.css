@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff0f5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: radial-gradient(circle, #ffe6f0, #fff0f5);
+}
+
+.carta {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ffb6c1;
+    position: relative;
+    text-align: center;
+}
+
+.imagen-encabezado img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.carta h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #c71585;
+    margin-bottom: 20px;
+}
+
+.carta p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.carta .firma {
+    text-align: right;
+    font-style: italic;
+    color: #c71585;
+}
+
+.carta .firma strong {
+    display: block;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.imagen-pie img {
+    width: 80px;
+    margin-top: 20px;
+}
